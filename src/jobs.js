@@ -90,17 +90,41 @@ export const trainingData = [
   {
     id: "01",
     company: "UDEMY",
-    name: "MERN",
-    trainer: "BRAD TRAVERSY",
+    name: "MERN eCommerce From Scratch",
+    trainer: "Brad Traversy",
     technology: "MongoDB, Express, ReactJS, NodeJS",
-    duration: "60 Hours"
+    duration: "15 Hours"
   },
   {
     id: "02",
     company: "UDEMY",
-    name: "MERN",
-    trainer: "BRAD TRAVERSY",
-    technology: "MongoDB, Express, ReactJS, NodeJS",
-    duration: "60 Hours"
+    name: "Nodejs API Masterclass With Express & MongoDB",
+    trainer: "Brad Traversy",
+    technology: "MongoDB, Express, NodeJS",
+    duration: "12 Hours"
+  },
+  {
+    id: "03",
+    company: "UDEMY",
+    name: "React Native-The Practical Guide",
+    trainer: "Maximilian Schwarzmuller",
+    technology: "React Native",
+    duration: "33 Hours"
+  },
+  {
+    id: "04",
+    company: "UDEMY",
+    name: "ReactJS-The Practical Guide",
+    trainer: "Maximilian Schwarzmuller",
+    technology: "ReactJS",
+    duration: "33 Hours"
+  }
+];
+export const projects = [
+  {
+    id: "01",
+    name: "Онлайн дэлгүүрийн веб хуудас.",
+    technology:
+      "Вебийн Фронтэндийг ReactJS өгөгдлийн баазыг Firebase ашигласан."
   }
 ];
