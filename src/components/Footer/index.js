@@ -12,7 +12,8 @@ import {
   SocialMediaWrap,
   SocialIconLink,
   SocialIcons,
-  SocialLogo
+  ContactText,
+  ContactDiv
 } from "./FooterElements";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 
@@ -25,10 +26,36 @@ const Footer = () => {
       <FooterWrap>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">
-              Холбоо барих: 88058822 <br />
-              Эмэйл хаяг: munaa.tsetsegmaa@gmail.com
-            </SocialLogo>
+            <ContactText to="/">
+              <ContactDiv>
+                <span>
+                  <ion-icon
+                    style={{
+                      height: "1.5rem",
+                      width: "1.5rem",
+                      color: "#fff",
+                      marginRight: "1rem"
+                    }}
+                    name="call"
+                  ></ion-icon>
+                </span>
+                88058822
+              </ContactDiv>
+              <ContactDiv>
+                <span>
+                  <ion-icon
+                    style={{
+                      height: "1.5rem",
+                      width: "1.5rem",
+                      color: "#fff",
+                      marginRight: "1rem"
+                    }}
+                    name="mail"
+                  ></ion-icon>
+                </span>
+                munaa.tsetsegmaa@gmail.com
+              </ContactDiv>
+            </ContactText>
             <SocialIcons>
               <SocialIconLink
                 href="https://www.facebook.com/Munaa.tse"
