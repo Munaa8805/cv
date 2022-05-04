@@ -9,7 +9,7 @@ import {
   ServicesP
 } from "./ServicesElements";
 import Icon1 from "../../images/svg-2.svg";
-import { geologyJobs } from "./jobs";
+import { geologyJobs } from "../../jobs";
 const Services = () => {
   return (
     <ServicesContainer id="experience">

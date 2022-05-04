@@ -56,7 +56,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="discover"
+                  to="education"
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -92,14 +92,14 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="contact"
+                  to="project"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  Холбоо барих
+                  Төсөл
                 </NavLinks>
               </NavItem>
             </NavMenu>

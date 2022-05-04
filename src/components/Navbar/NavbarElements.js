@@ -22,8 +22,8 @@ export const NavbarContainer = styled.div`
   height: 80px;
   z-index: 1;
   width: 100%;
-  padding: 0 24px;
-  max-width: 1100px;
+  padding: 0;
+  max-width: 1200px;
 `;
 export const NavLogo = styled(LinkR)`
   color: #fff;
@@ -32,7 +32,7 @@ export const NavLogo = styled(LinkR)`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-left: 24px;
+  // margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
 `;
@@ -43,7 +43,7 @@ export const ImgLogo = styled.img`
   border: 1px solid oranged;
 `;
 export const ImgText = styled.p`
-  margin-left: 5px;
+  margin-left: 10px;
   font-weight: 400;
   font-size: 16px;
 `;
@@ -65,7 +65,6 @@ export const NavMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: -22px;
   @media screen and (max-width: 768px) {
     display: none;
   }
