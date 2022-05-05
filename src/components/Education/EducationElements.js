@@ -35,6 +35,9 @@ export const ServicesCard = styled.div`
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
+  img {
+    margin-bottom: 2rem;
+  }
 `;
 
 export const ServicesH1 = styled.h1`

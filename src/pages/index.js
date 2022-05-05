@@ -8,6 +8,7 @@ import Services from "../components/Services";
 import Program from "../components/Services/program";
 import Footer from "../components/Footer";
 import Education from "../components/Education/Education";
+import Project from "../components/Project/Project";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -23,6 +24,7 @@ const Home = () => {
       <Program />
       <Services />
       <Education />
+      <Project />
       <Footer />
     </>
   );
