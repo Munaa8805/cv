@@ -3,12 +3,13 @@ import Navbar from "../components/Navbar/index";
 import Sidebar from "../components/SideBar/index";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
-import { homeObjOne, homeObjTwo } from "../components/InfoSection/Data";
+import { homeObjOne } from "../components/InfoSection/Data";
 import Services from "../components/Services";
 import Program from "../components/Services/program";
 import Footer from "../components/Footer";
 import Education from "../components/Education/Education";
 import Project from "../components/Project/Project";
+import Course from "../components/Course/Course";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -20,7 +21,8 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} />
+
+      <Course />
       <Program />
       <Services />
       <Education />

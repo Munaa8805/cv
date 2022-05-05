@@ -18,6 +18,7 @@ export const ContainerWrapper = styled.div`
   background: ${(props) => props.bg || ""};
   @media screen and (max-width: 850px) {
     grid-template-columns: repeat(1, 1fr);
+    padding: 40px;
   }
 `;
 export const ContainerCard = styled.div`
