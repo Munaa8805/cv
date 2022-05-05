@@ -3,11 +3,9 @@ import {
   SidebarContainer,
   Icon,
   CloseIcon,
-  SideBtnWrap,
   SidebarLink,
   SidebarMenu,
-  SidebarWrapper,
-  SidebarRoute
+  SidebarWrapper
 } from "./SidebarElements";
 const Sidebar = ({ isOpen, toggle }) => {
   return (
@@ -19,21 +17,21 @@ const Sidebar = ({ isOpen, toggle }) => {
         <SidebarWrapper>
           <SidebarMenu>
             <SidebarLink to="about" onClick={toggle}>
-              About
+              Танилцуулга
             </SidebarLink>
-            <SidebarLink to="discover" onClick={toggle}>
-              Discover
+            <SidebarLink to="education" onClick={toggle}>
+              Боловсрол
             </SidebarLink>
-            <SidebarLink to="services" onClick={toggle}>
-              Services
+            <SidebarLink to="experience" onClick={toggle}>
+              Ажлын туршлага
             </SidebarLink>
-            <SidebarLink to="signup" onClick={toggle}>
-              Sign Up
+            <SidebarLink to="training" onClick={toggle}>
+              Сургалт
+            </SidebarLink>
+            <SidebarLink to="project" onClick={toggle}>
+              Төсөл
             </SidebarLink>
           </SidebarMenu>
-          <SideBtnWrap>
-            <SidebarRoute to="/signin">Sign In</SidebarRoute>
-          </SideBtnWrap>
         </SidebarWrapper>
       </SidebarContainer>
     </>

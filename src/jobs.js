@@ -1,3 +1,7 @@
+import eSan from "./images/e-san.PNG";
+import eRestaurant from "./images/e-restaurant.PNG";
+import UdemyLogo from "./images/udemy_logo.png";
+
 export const programJobs = [
   {
     id: "01",
@@ -89,7 +93,7 @@ export const geologyJobs = [
 export const trainingData = [
   {
     id: "01",
-    company: "UDEMY",
+    company: UdemyLogo,
     name: "MERN eCommerce From Scratch",
     trainer: "Brad Traversy",
     technology: "MongoDB, Express, ReactJS, NodeJS",
@@ -97,7 +101,7 @@ export const trainingData = [
   },
   {
     id: "02",
-    company: "UDEMY",
+    company: UdemyLogo,
     name: "Nodejs API Masterclass With Express & MongoDB",
     trainer: "Brad Traversy",
     technology: "MongoDB, Express, NodeJS",
@@ -105,7 +109,7 @@ export const trainingData = [
   },
   {
     id: "03",
-    company: "UDEMY",
+    company: UdemyLogo,
     name: "React Native-The Practical Guide",
     trainer: "Maximilian Schwarzmuller",
     technology: "React Native",
@@ -113,7 +117,7 @@ export const trainingData = [
   },
   {
     id: "04",
-    company: "UDEMY",
+    company: UdemyLogo,
     name: "ReactJS-The Practical Guide",
     trainer: "Maximilian Schwarzmuller",
     technology: "ReactJS",
@@ -125,6 +129,18 @@ export const projects = [
     id: "01",
     name: "Онлайн дэлгүүрийн веб хуудас.",
     technology:
-      "Вебийн Фронтэндийг ReactJS өгөгдлийн баазыг Firebase ашигласан."
+      "Вебийн Фронтэндийг ReactJS өгөгдлийн баазыг Firebase ашигласан. REST-API ашигласан.",
+    link: "https://e-commercial-m.vercel.app/",
+    githubRepo: "https://github.com/Munaa8805/e-commercial",
+    image: eSan
+  },
+  {
+    id: "02",
+    name: "Зоогийн газрын танилцуулга веб хуудас.",
+    technology:
+      "Вебийн Фронтэндийг ReactJS өгөгдлийн баазыг Firebase ашигласан. ",
+    link: "https://restaurant-meals.vercel.app/",
+    githubRepo: "https://github.com/Munaa8805/restaurant-meals",
+    image: eRestaurant
   }
 ];

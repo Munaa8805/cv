@@ -7,6 +7,7 @@ import {
   ServicesH2,
   ServicesP
 } from "./EducationElements";
+import { Image } from "../ContainerElement";
 
 import { trainingData } from "../../jobs";
 const Program = () => {
@@ -16,7 +17,7 @@ const Program = () => {
       <ServicesWrapper>
         {trainingData.map((item) => (
           <ServicesCard key={item.id}>
-            <ServicesH2>{item.company}</ServicesH2>
+            <Image src={item.company} height="50px" width="100px" />
             <ServicesP>
               <span>Сургалт :</span> {item.name}
             </ServicesP>
