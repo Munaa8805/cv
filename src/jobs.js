@@ -20,7 +20,7 @@ export const programJobs = [
   },
   {
     id: "02",
-    name: "BOYS SYSTEM ХХК",
+    name: "Bow System ХХК",
     jobs: "Вэб хөгжүүлэгч.",
     useTechnology: "HTML, CSS, ReactJS",
     jobDesc: "Вэб апликэшиний фронтэнд хөгжүүлэлтийг гүйцэтгэх.",
@@ -33,7 +33,7 @@ export const programJobs = [
 export const geologyJobs = [
   {
     id: "01",
-    name: "Поларис консилтинг сэрвис ХХК",
+    name: "Polaris Engineering Consulting ХХК",
     jobs: "Геологич.",
     useTechnology: "AutoCad, Minex, ArcGIS, MapInfo",
     jobDesc: "Нүүрсний ордын 3н хэмжээст загварчлалыг боловсруулах.",
@@ -55,7 +55,7 @@ export const geologyJobs = [
   },
   {
     id: "03",
-    name: "Southgobi Sands ХХК",
+    name: "SouthGobi Sands ХХК",
     jobs: "Ашиглалтын геологич.",
     useTechnology: "AutoCad, Minex",
     jobDesc:
@@ -67,7 +67,7 @@ export const geologyJobs = [
   },
   {
     id: "04",
-    name: "Southgobi Sands ХХК",
+    name: "SouthGobi Sands ХХК",
     jobs: "Нөөцийн геологич.",
     useTechnology: "AutoCad, Minex",
     jobDesc: "Нүүрсний ордын 3н хэмжээст загварчлалыг боловсруулах.",

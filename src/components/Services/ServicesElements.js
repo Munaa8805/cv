@@ -44,9 +44,10 @@ export const ServicesCard = styled.div`
   }
 `;
 export const ServicesIcon = styled.img`
-  height: 160px;
-  width: 160px;
+  height: 112px;
+  width: 200px;
   margin-bottom: 10px;
+  object-fit: fill;
 `;
 export const ServicesH1 = styled.h1`
   font-size: 2.5rem;

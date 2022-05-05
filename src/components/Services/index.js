@@ -8,7 +8,6 @@ import {
   ServicesH2,
   ServicesP
 } from "./ServicesElements";
-import Icon1 from "../../images/svg-2.svg";
 import { geologyJobs } from "../../jobs";
 const Services = () => {
   return (
@@ -17,7 +16,7 @@ const Services = () => {
       <ServicesWrapper>
         {geologyJobs.map((item) => (
           <ServicesCard key={item.id}>
-            <ServicesIcon src={Icon1} />
+            <ServicesIcon src={item.logoImage} rel="noopener" />
             <ServicesH2>{item.name}</ServicesH2>
             <ServicesP>
               <span>Ажилласан мэргэжил:</span> {item.jobs}

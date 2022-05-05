@@ -16,7 +16,7 @@ import { projects } from "../../jobs";
 const Project = () => {
   return (
     <Container bg="#010606" id="project">
-      <MainTitle>Онлайн сургалт</MainTitle>
+      <MainTitle>Хэрэгжүүлсэн төслүүд</MainTitle>
       <ContainerWrapper number={2}>
         {projects.map((item) => (
           <ContainerCard key={item.id}>
