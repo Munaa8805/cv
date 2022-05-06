@@ -1,7 +1,15 @@
 import React from "react";
 import { Container, ContainerWrapper } from "../ContainerElement";
-import { Title, Subtitle, Description, Wrapper, Image } from "./courseElements";
+import {
+  Title,
+  Subtitle,
+  Description,
+  Wrapper,
+  Image,
+  LogoWrapper
+} from "./courseElements";
 import grade from "../../images/grade.jpg";
+import { Logos } from "../../jobs";
 const Course = () => {
   return (
     <Container id="education">
@@ -22,6 +30,28 @@ const Course = () => {
         </Wrapper>
         <Wrapper>
           <Image src={grade} alt="grade" />
+        </Wrapper>
+      </ContainerWrapper>
+      <ContainerWrapper number={1}>
+        <Wrapper>
+          <Title style={{ marginTop: "2rem" }}>Програмчлалын хэл</Title>
+          <LogoWrapper>
+            {Logos.map((item) => (
+              <Wrapper key={item.id}>
+                <Subtitle>{item.name}</Subtitle>
+                {/* <Description>{item.level}</Description> */}
+                <Image
+                  alt={item.name}
+                  src={item.logo}
+                  style={{
+                    width: "100%",
+                    height: "140px",
+                    backgroundImage: "cover"
+                  }}
+                />
+              </Wrapper>
+            ))}
+          </LogoWrapper>
         </Wrapper>
       </ContainerWrapper>
     </Container>
