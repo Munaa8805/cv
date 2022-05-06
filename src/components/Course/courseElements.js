@@ -15,10 +15,20 @@ export const Description = styled.p`
   line-height: 1.5;
   text-align: justify;
 `;
-export const Wrapper = styled.div`
-  height: 60vh;
-  padding-top: 8rem;
-`;
+export const Wrapper = styled.div``;
 export const Image = styled.img`
   width: 100%;
+`;
+export const LogoWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    h3 {
+      text-align: center;
+    }
+  }
 `;

@@ -6,6 +6,22 @@ import GoldenAlpLogo from "./images/golden_alp.jpg";
 import SouthgobiSandsLogo from "./images/southgobisands_logo.jpeg";
 import AdamasMiningLogo from "./images/adamas_mining_logo.png";
 import logo1234 from "./images/1234logo.png";
+import htmlLogo from "./images/html.svg";
+import cssLogo from "./images/css.svg";
+import reactLogo from "./images/react-js.svg";
+import styledComponentsLogo from "./images/styledcomponentsLogo.jpg";
+
+export const Logos = [
+  { id: "01", name: "HTML", logo: htmlLogo, level: "Дунд шат" },
+  { id: "02", name: "CSS", logo: cssLogo, level: "Дунд шат" },
+  { id: "03", name: "ReactJS", logo: reactLogo, level: "Анхан шат" },
+  {
+    id: "04",
+    name: "Styled Components",
+    logo: styledComponentsLogo,
+    level: "Дунд шат"
+  }
+];
 
 export const programJobs = [
   {
