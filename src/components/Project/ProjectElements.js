@@ -5,10 +5,17 @@ export const MainTitle = styled.h1`
   text-align: center;
   color: #fff;
   margin-bottom: 2rem;
+  @media screen and (max-width: 768px) {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
 `;
 export const Title = styled.h3`
   font-size: 1.4rem;
   margin-bottom: 1rem;
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+  }
 `;
 export const Description = styled.p`
   font-size: 1rem;

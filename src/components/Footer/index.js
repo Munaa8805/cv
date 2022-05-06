@@ -3,11 +3,6 @@ import { animateScroll as scroll } from "react-scroll";
 import {
   FooterContainer,
   FooterWrap,
-  FooterLinksContainer,
-  FooterLinksWrapper,
-  FooterLinkItems,
-  FooterLinkTitle,
-  FooterLink,
   SocialMedia,
   SocialMediaWrap,
   SocialIconLink,
@@ -18,9 +13,9 @@ import {
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
-  // const toggleHome = () => {
-  //   scroll.scrollToTop();
-  // };
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
   return (
     <FooterContainer id="contact">
       <FooterWrap>

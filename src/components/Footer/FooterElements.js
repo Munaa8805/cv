@@ -15,15 +15,13 @@ export const FooterWrap = styled.div`
 `;
 
 export const SocialMedia = styled.section`
-  max-width: 1200px;
   width: 100%;
 `;
 export const SocialMediaWrap = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
-  margin: 40px auto 0 auto;
+  margin: 20px auto 0 auto;
   @media screen and (max-width: 820px) {
     flex-direction: column;
   }
@@ -36,6 +34,9 @@ export const ContactText = styled(Link)`
 export const ContactDiv = styled.p`
   display: flex;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 1rem;
+  }
 `;
 export const WebsiteRights = styled.small`
   color: #fff;
@@ -46,6 +47,9 @@ export const SocialIcons = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 240px;
+  @media screen and (max-width: 768px) {
+    margin-top: 2rem;
+  }
 `;
 export const SocialIconLink = styled.a`
   color: #fff;

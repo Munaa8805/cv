@@ -55,8 +55,9 @@ export const ServicesH1 = styled.h1`
   color: #fff;
   margin-bottom: 64px;
   margin-top: 1rem;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     font-size: 2rem;
+    margin-bottom: 1rem;
   }
 `;
 export const ServicesH2 = styled.h2`

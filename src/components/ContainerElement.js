@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.section`
   background: ${(props) => props.bg || "#fff"};
   padding: 40px 0;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 992px) {
   }
 `;
 export const ContainerWrapper = styled.div`
@@ -14,11 +14,15 @@ export const ContainerWrapper = styled.div`
   margin: 0 auto;
   justify-content: center;
   align-items: stretch;
+  padding: 0 50px;
   gap: 1rem;
   background: ${(props) => props.bg || ""};
+  @media screen and (max-width: 992px) {
+    padding: 0 39px;
+  }
   @media screen and (max-width: 850px) {
     grid-template-columns: repeat(1, 1fr);
-    padding: 40px;
+    padding: 0 39px;
   }
 `;
 export const ContainerCard = styled.div`

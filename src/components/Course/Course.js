@@ -6,7 +6,8 @@ import {
   Description,
   Wrapper,
   Image,
-  LogoWrapper
+  LogoWrapper,
+  LogoImage
 } from "./courseElements";
 import grade from "../../images/grade.jpg";
 import { Logos } from "../../jobs";
@@ -40,15 +41,7 @@ const Course = () => {
               <Wrapper key={item.id}>
                 <Subtitle>{item.name}</Subtitle>
                 {/* <Description>{item.level}</Description> */}
-                <Image
-                  alt={item.name}
-                  src={item.logo}
-                  style={{
-                    width: "140px",
-                    height: "140px",
-                    backgroundImage: "cover"
-                  }}
-                />
+                <LogoImage alt={item.name} src={item.logo} />
               </Wrapper>
             ))}
           </LogoWrapper>
