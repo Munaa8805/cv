@@ -5,6 +5,7 @@ import PolarisLogo from "./images/polaris_logo.png";
 import GoldenAlpLogo from "./images/golden_alp.jpg";
 import SouthgobiSandsLogo from "./images/southgobisands_logo.jpeg";
 import AdamasMiningLogo from "./images/adamas_mining_logo.png";
+import logo1234 from "./images/1234logo.png";
 
 export const programJobs = [
   {
@@ -36,8 +37,9 @@ export const geologyJobs = [
     name: "Polaris Engineering Consulting ХХК",
     jobs: "Геологич.",
     useTechnology: "AutoCad, Minex, ArcGIS, MapInfo",
-    jobDesc: "Нүүрсний ордын 3н хэмжээст загварчлалыг боловсруулах.",
-    durationStart: "2018-10-15",
+    jobDesc:
+      "Нүүрсний ордын нарийвчилсан хайгуулын ажлын төлөвлөлт, ордын нөөцийн загварчлал, нүүрсний давхаргын чанрын хяналтын дээжлэлт. Нүүрсний чанрын дээжлэлтийн  боловсруулалт. Хайгуулын талбайн тендерийн сонгон шалгаруулалтын материал бэлтгэл.",
+    durationStart: "2018-10-01",
     durationEnd: "2019-08-15",
     companyLink: "https://www.facebook.com/PolarisEngineering",
     logoImage: PolarisLogo
@@ -48,7 +50,8 @@ export const geologyJobs = [
     name: "Golden Alp Resources ХХК",
     jobs: "Геологич.",
     useTechnology: "AutoCad, ArcGIS",
-    jobDesc: "Нүүрсний ордын 3н хэмжээст загварчлалыг боловсруулах.",
+    jobDesc:
+      "Хайгуулын талбайн зураг болон талбайн дээжлэлтийн төлөвлөгөө боловсруулах. Геологийн зургийг боловсруулж дижитал зураг руу хөрвүүлэх.",
     durationStart: "2018-08-01",
     durationEnd: "2018-10-01",
     logoImage: GoldenAlpLogo
@@ -59,7 +62,7 @@ export const geologyJobs = [
     jobs: "Ашиглалтын геологич.",
     useTechnology: "AutoCad, Minex",
     jobDesc:
-      "Нүүрсний давхаргын 3н хэмжээст загварчлалыг боловсруулах. Уурхайн олборлосон нүүрсний чанрыг баталгаажуулах, экспортын нүүрсний чанрын дээжлэлт хийх, баримтжуулах. Уурхайн олборлох нүүрсний чанрыг тодорхойлох. Уурхайн геологийн ажлын холбогдох журмыг боловсруулах шинэчлэх.",
+      "Нүүрсний ордын нарийвчилсан хайгуулын ажлын төлөвлөлт, ордын нөөцийн загварчлал, нүүрсний давхарга болон нүүрсний овоолгын чанрын хяналтын дээжлэлт. Нүүрсний чанрын дээжлэлтийн  боловсруулалт. Экспортын нүүрсний чанрын хяналтын дээжлэлт. Нүүрсний давхаргын гаршын зураглал хийх.Уурхайн хананы чулуулгийн зураглал хийх.",
     durationStart: "2016-08-01",
     durationEnd: "2018-08-01",
     companyLink: "https://www.southgobi.com/html/index.php",
@@ -70,7 +73,8 @@ export const geologyJobs = [
     name: "SouthGobi Sands ХХК",
     jobs: "Нөөцийн геологич.",
     useTechnology: "AutoCad, Minex",
-    jobDesc: "Нүүрсний ордын 3н хэмжээст загварчлалыг боловсруулах.",
+    jobDesc:
+      "Нүүрсний ордын нарийвчилсан хайгуулын ажлын төлөвлөлт, ордын нөөцийн загварчлал, нүүрсний давхарга болон нүүрсний овоолгын чанрын хяналтын дээжлэлт. Нүүрсний чанрын дээжлэлтийн  боловсруулалт. Экспортын нүүрсний чанрын хяналтын дээжлэлт. Нүүрсний давхаргын гаршын зураглал хийх.Уурхайн хананы чулуулгийн зураглал хийх.",
     durationStart: "2014-04-01",
     durationEnd: "2016-08-01",
     companyLink: "https://www.southgobi.com/html/index.php",
@@ -82,7 +86,7 @@ export const geologyJobs = [
     jobs: "Геологич.",
     useTechnology: "Minex, ArcGIS",
     jobDesc:
-      "Хайгуулын талбайн геологийн илэрц болон ордын үнэлгээ тайлан боловсруулах, хэтийн төлөвийг тодорхойлох.",
+      "Хайгуулын талбайн хайгуулын ажлын төлөвлөлт боловсруулах , хэтийн төлөвийн үнэлгээ гаргах. Борзон-7 нэртэй газрын тосны хайгуулын талбайн материал боловсруулах, төлөвлөгөө гаргах.",
     durationStart: "2011-11-01",
     durationEnd: "2014-04-01",
     companyLink: "https://mcs.mn/mn/",
@@ -94,7 +98,7 @@ export const geologyJobs = [
     jobs: "Геологич.",
     useTechnology: "MapInfo, ArcGIS",
     jobDesc:
-      "Компаны зүүн болон төвийн бүсийн хайгуулын талбайнуудад геологийн хээрийн судалгааны ажлыг хийж гүйцэтгэх, үр дүнг боловсруулах, тайлагнах, танилцуулга бэлтгэх, хэтийн төлөвтэй талбайг ялгаж тогтоох, хайгуулын ажлын үр дүнг боловсруулж холбогдох төрийн захиргааны байгуулагаар тайлан төлөвлөгөө батлуулах.",
+      "Хайгуулын талбайн хайгуулын ажлын төлөвлөлт боловсруулах , хэтийн төлөвийн үнэлгээ гаргах. Хайгуулын талбайн хээрийн ажлыг гүйцэтгэх , хянах , тайлан төлөвлөгөө бичих , холбогдох байгуулагаар баталгаажуулах.",
     durationStart: "2008-06-30",
     durationEnd: "2011-11-01",
     companyLink: "https://www.google.mn/",
@@ -128,11 +132,11 @@ export const trainingData = [
   },
   {
     id: "04",
-    company: UdemyLogo,
-    name: "ReactJS-The Practical Guide",
-    trainer: "Maximilian Schwarzmuller",
+    company: logo1234,
+    name: "React эхнээс нь дуустал",
+    trainer: "Амарбат",
     technology: "ReactJS",
-    duration: "33 Hours"
+    duration: "42 цаг 2мин"
   }
 ];
 export const projects = [

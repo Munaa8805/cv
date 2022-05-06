@@ -19,7 +19,7 @@ export const ServicesWrapper = styled.div`
   padding: 50px;
 `;
 export const ServicesCard = styled.div`
-  background: #999;
+  background: #e1e1e3;
   width: 100%;
   display: flex;
   flex-direction: column;
