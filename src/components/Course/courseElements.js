@@ -23,9 +23,12 @@ export const LogoWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   div {
     display: flex;
     flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     text-align: center;
     h3 {
       text-align: center;

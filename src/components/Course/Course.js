@@ -44,7 +44,7 @@ const Course = () => {
                   alt={item.name}
                   src={item.logo}
                   style={{
-                    width: "100%",
+                    width: "140px",
                     height: "140px",
                     backgroundImage: "cover"
                   }}
