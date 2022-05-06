@@ -7,6 +7,9 @@ export const Title = styled.h1`
 export const Subtitle = styled.h3`
   color: #000;
   margin-bottom: 1rem;
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+  }
 `;
 export const Description = styled.p`
   color: #000;
@@ -33,5 +36,14 @@ export const LogoWrapper = styled.div`
     h3 {
       text-align: center;
     }
+  }
+`;
+export const LogoImage = styled.img`
+  width: 140px;
+  height: 140px;
+  background: cover;
+  @media screen and (max-width: 768px) {
+    width: 100px;
+    height: 100px;
   }
 `;

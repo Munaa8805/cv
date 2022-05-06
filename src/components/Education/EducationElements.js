@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const ServicesContainer = styled.div`
-  // height: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,6 +16,10 @@ export const ServicesWrapper = styled.div`
   justify-content: space-between;
   grid-gap: 16px;
   padding: 50px;
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
 `;
 export const ServicesCard = styled.div`
   background: #e1e1e3;
@@ -44,7 +47,7 @@ export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
   color: #000;
   margin-top: 2rem;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     font-size: 2rem;
   }
 `;

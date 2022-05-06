@@ -2,15 +2,16 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
   color: #fff;
+  padding: 50px 0;
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 30px 0;
   }
 `;
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  // height: 860px;
   width: 100%;
   max-width: 1200px;
   margin-right: auto;
@@ -35,17 +36,27 @@ export const Column1 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col1;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 0;
+  }
 `;
 
 export const Column2 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col2;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 0;
+  }
 `;
 export const TextWrapper = styled.div`
-  max-width: 540px;
+  // max-width: 540px;
+  width: 100%;
   padding-top: 0;
   padding-bottom: 60px;
+  @media screen and (max-width: 768px) {
+    padding-bottom: 0px;
+  }
 `;
 export const TopLine = styled.p`
   color: #01bf71;
@@ -67,7 +78,7 @@ export const Heading = styled.h1`
   }
 `;
 export const Subtitle = styled.p`
-  max-width: 440px;
+  // max-width: 440px;
   margin-bottom: 35px;
   font-size: 18px;
   text-align: justify;
