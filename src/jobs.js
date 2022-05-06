@@ -5,6 +5,7 @@ import PolarisLogo from "./images/polaris_logo.png";
 import GoldenAlpLogo from "./images/golden_alp.jpg";
 import SouthgobiSandsLogo from "./images/southgobisands_logo.jpeg";
 import AdamasMiningLogo from "./images/adamas_mining_logo.png";
+import bowllcLogo from "./images/bowllclogo.png";
 import logo1234 from "./images/1234logo.png";
 import htmlLogo from "./images/html.svg";
 import cssLogo from "./images/css.svg";
@@ -44,7 +45,7 @@ export const programJobs = [
     durationStart: "2020-08-01",
     durationEnd: "2020-10-15",
     companyLink: "https://www.facebook.com/bowllc/posts/2456333917976398/",
-    logoImage: "http://bowsys.mn/static/media/log4.38c79503.png"
+    logoImage: bowllcLogo
   }
 ];
 export const geologyJobs = [
