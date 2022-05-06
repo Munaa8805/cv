@@ -17,7 +17,8 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1>Фронтэнд хөгжүүлэгч</HeroH1>
         <HeroP>
-          HTML, CSS, Javascript, ReactJS програмчлалын хэлний туршлагатай.
+          HTML, CSS, Javascript, ReactJS програмчлалын <br />
+          хэлний туршлагатай.
         </HeroP>
       </HeroContent>
     </HeroContainer>
