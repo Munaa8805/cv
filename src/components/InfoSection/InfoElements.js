@@ -87,7 +87,7 @@ export const Subtitle = styled.p`
 `;
 
 export const ImgWrap = styled.div`
-  max-width: 555px;
+  width: 100%;
   height: 100%;
 `;
 export const Img = styled.img`
