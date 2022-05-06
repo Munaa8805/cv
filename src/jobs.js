@@ -12,6 +12,7 @@ import cssLogo from "./images/css.svg";
 import reactLogo from "./images/react-js.svg";
 import styledComponentsLogo from "./images/styledcomponentsLogo.jpg";
 import reduxLogo from "./images/reduxLogo.png";
+import gitLogo from "./images/gitLogo.png";
 export const Logos = [
   { id: "01", name: "HTML", logo: htmlLogo, level: "Дунд шат" },
   { id: "02", name: "CSS", logo: cssLogo, level: "Дунд шат" },
@@ -26,6 +27,12 @@ export const Logos = [
     id: "05",
     name: "Redux",
     logo: reduxLogo,
+    level: "Дунд шат"
+  },
+  {
+    id: "06",
+    name: "Git",
+    logo: gitLogo,
     level: "Дунд шат"
   }
 ];
