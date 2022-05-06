@@ -24,6 +24,10 @@ const Project = () => {
             <ContainerDiv>
               <Title>{item.name}</Title>
               <Description>{item.technology}</Description>
+              <Description>
+                <b>Төлөв: </b>
+                {item.finished}
+              </Description>
               <ContainerLink>
                 <a href={item.link} target="_blank">
                   Вебийн холбоос

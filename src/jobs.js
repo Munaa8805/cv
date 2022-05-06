@@ -162,6 +162,7 @@ export const projects = [
     name: "Онлайн дэлгүүрийн веб хуудас.",
     technology:
       "Вебийн Фронтэндийг ReactJS өгөгдлийн баазыг Firebase ашигласан. REST-API ашигласан.",
+    finished: "Хөгжүүлэлтийн ажил үргэлжилж байна.",
     link: "https://e-commercial-m.vercel.app/",
     githubRepo: "https://github.com/Munaa8805/e-commercial",
     image: eSan
@@ -171,6 +172,7 @@ export const projects = [
     name: "Зоогийн газрын танилцуулга веб хуудас.",
     technology:
       "Вебийн Фронтэндийг ReactJS өгөгдлийн баазыг Firebase ашигласан. ",
+    finished: "Хөгжүүлэлтийн ажил үргэлжилж байна.",
     link: "https://restaurant-meals.vercel.app/",
     githubRepo: "https://github.com/Munaa8805/restaurant-meals",
     image: eRestaurant
