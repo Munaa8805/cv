@@ -19,7 +19,7 @@ const Project = () => {
       <MainTitle>Хэрэгжүүлсэн төслүүд</MainTitle>
       <ContainerWrapper number={2}>
         {projects.map((item) => (
-          <ContainerCard key={item.id}>
+          <ContainerCard key={item.id} bg="#fff">
             <Image src={item.image} />
             <ContainerDiv>
               <Title>{item.name}</Title>

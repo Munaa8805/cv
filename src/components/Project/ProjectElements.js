@@ -7,10 +7,12 @@ export const MainTitle = styled.h1`
   margin-bottom: 2rem;
 `;
 export const Title = styled.h3`
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
 `;
 export const Description = styled.p`
   font-size: 1rem;
+  line-height: 1.5rem;
 `;
 export const ContainerDiv = styled.div`
   margin: 1.5rem;

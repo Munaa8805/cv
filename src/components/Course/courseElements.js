@@ -15,7 +15,10 @@ export const Description = styled.p`
   line-height: 1.5;
   text-align: justify;
 `;
-export const Wrapper = styled.div``;
+export const Wrapper = styled.div`
+  height: 60vh;
+  padding-top: 8rem;
+`;
 export const Image = styled.img`
   width: 100%;
 `;
