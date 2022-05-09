@@ -176,7 +176,7 @@ export const projects = [
     technology:
       "Вебийн Фронтэндийг ReactJS өгөгдлийн баазыг Firebase ашигласан. REST-API ашигласан.",
     finished: "Хөгжүүлэлтийн ажил үргэлжилж байна.",
-    link: "https://e-commercial-m.vercel.app/",
+    link: "https://e-commercial-munaa8805.vercel.app",
     githubRepo: "https://github.com/Munaa8805/e-commercial",
     image: eSan
   },
