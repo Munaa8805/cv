@@ -7,7 +7,7 @@ export const homeObjOne = {
   headline: "Танилцуулга",
   description: "",
   imgStart: false,
-  img: require("../../images/Munaa.jpg"),
+  img: require("../../images/Munaa.webp"),
   alt: "munaa",
   dark: true,
   primary: true,

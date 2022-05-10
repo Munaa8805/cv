@@ -13,7 +13,7 @@ import {
   ImgLogo,
   ImgText
 } from "./NavbarElements";
-import imgzurag from "../../images/zurag.jpg";
+import imgzurag from "../../images/zurag.webp";
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -36,7 +36,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              <ImgLogo src={imgzurag} /> <ImgText>Мунаа</ImgText>
+              <ImgLogo src={imgzurag} alt="image" /> <ImgText>Мунаа</ImgText>
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />

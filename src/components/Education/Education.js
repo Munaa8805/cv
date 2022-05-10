@@ -17,7 +17,12 @@ const Program = () => {
       <ServicesWrapper>
         {trainingData.map((item) => (
           <ServicesCard key={item.id}>
-            <Image src={item.company} height="50px" width="100px" />
+            <Image
+              src={item.company}
+              height="50px"
+              width="100px"
+              alt="udemy logo"
+            />
             <ServicesP>
               <span>Сургалт :</span> {item.name}
             </ServicesP>

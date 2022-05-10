@@ -17,7 +17,7 @@ const Program = () => {
       <ServicesWrapper>
         {programJobs.map((item) => (
           <ServicesCard key={item.id}>
-            <ServicesIcon src={item.logoImage} rel="noopener" />
+            <ServicesIcon src={item.logoImage} rel="noopener" alt="cody logo" />
             <ServicesH2>{item.name}</ServicesH2>
             <ServicesP>
               <span>Ажилласан мэргэжил:</span> {item.jobs}

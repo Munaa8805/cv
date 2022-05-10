@@ -16,7 +16,11 @@ const Services = () => {
       <ServicesWrapper>
         {geologyJobs.map((item) => (
           <ServicesCard key={item.id}>
-            <ServicesIcon src={item.logoImage} rel="noopener" />
+            <ServicesIcon
+              src={item.logoImage}
+              rel="noopener"
+              alt="geology company logo"
+            />
             <ServicesH2>{item.name}</ServicesH2>
             <ServicesP>
               <span>Ажилласан мэргэжил:</span> {item.jobs}

@@ -9,7 +9,7 @@ import {
   LogoWrapper,
   LogoImage
 } from "./courseElements";
-import grade from "../../images/grade.jpg";
+import grade from "../../images/grade.webp";
 import { Logos } from "../../jobs";
 const Course = () => {
   return (
