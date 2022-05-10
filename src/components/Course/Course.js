@@ -35,7 +35,7 @@ const Course = () => {
       </ContainerWrapper>
       <ContainerWrapper number={1}>
         <Wrapper>
-          <Title style={{ marginTop: "2rem" }}>Програмчлалын хэл</Title>
+          <Title style={{ marginTop: "2rem" }}>Програмчлалын мэдлэг</Title>
           <LogoWrapper>
             {Logos.map((item) => (
               <Wrapper key={item.id}>
