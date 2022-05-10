@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar/index";
 import Sidebar from "../components/SideBar/index";
 import HeroSection from "../components/HeroSection";
@@ -10,11 +10,16 @@ import Footer from "../components/Footer";
 import Education from "../components/Education/Education";
 import Project from "../components/Project/Project";
 import Course from "../components/Course/Course";
+import { logEvent } from "firebase/analytics";
+import { analytics } from "../firebaseConfig";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
     setIsOpen(!isOpen);
   };
+  useEffect(() => {
+    logEvent(analytics);
+  }, []);
   return (
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
