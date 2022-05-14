@@ -14,6 +14,7 @@ import styledComponentsLogo from "./images/styledcomponentsLogo.jpg";
 import reduxLogo from "./images/reduxLogo.webp";
 import gitLogo from "./images/gitLogo.webp";
 import jsLogo from "./images/JSlogo.png";
+import nextjsLogo from "./images/nextjs.svg";
 export const Logos = [
   { id: "01", name: "HTML", logo: htmlLogo, level: "Дунд шат" },
   { id: "02", name: "CSS", logo: cssLogo, level: "Дунд шат" },
@@ -40,6 +41,12 @@ export const Logos = [
     id: "07",
     name: "JavaScript",
     logo: jsLogo,
+    level: "Дунд шат"
+  },
+  {
+    id: "08",
+    name: "NextJS",
+    logo: nextjsLogo,
     level: "Дунд шат"
   }
 ];
@@ -174,6 +181,14 @@ export const trainingData = [
     trainer: "Амарбат",
     technology: "ReactJS",
     duration: "42 цаг 2мин"
+  },
+  {
+    id: "05",
+    company: UdemyLogo,
+    name: "Nextjs & React - The Complete Guide",
+    trainer: "Maximilian Schwarzmuller",
+    technology: "Nextjs",
+    duration: "25 Hours"
   }
 ];
 export const projects = [
