@@ -20,7 +20,9 @@ const Project = () => {
       <ContainerWrapper number={2}>
         {projects.map((item) => (
           <ContainerCard key={item.id} bg="#fff">
-            <Image src={item.image} alt="project logo" />
+            <a href={item.link} target="_blank">
+              <Image src={item.image} alt="project logo" />
+            </a>
             <ContainerDiv>
               <Title>{item.name}</Title>
               <Description>{item.technology}</Description>

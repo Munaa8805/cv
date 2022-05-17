@@ -42,6 +42,9 @@ export const ContainerCard = styled.div`
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
+  a {
+    width: 100%;
+  }
 `;
 export const Image = styled.img`
   width: ${(props) => props.width || "100px"};
