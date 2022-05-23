@@ -15,6 +15,21 @@ import reduxLogo from "./images/reduxLogo.webp";
 import gitLogo from "./images/gitLogo.webp";
 import jsLogo from "./images/JSlogo.png";
 import nextjsLogo from "./images/nextjs.svg";
+
+export const lessons = [
+  { id: "01", name: "Алгоритмын үндэс" },
+  { id: "02", name: "Өгөгдлийн сангийн үндэс" },
+  { id: "03", name: "Интернет технологийн үндэс" },
+  { id: "04", name: "Веб програмчлал" },
+  { id: "05", name: "Визуаль програмчлал" },
+  { id: "06", name: "Объект хандлагат програмчлал" },
+  { id: "07", name: "Програмчлалын хэл СИ" },
+  { id: "08", name: "Компьютерийн ухааны судалгааны  арга зүй" },
+  { id: "09", name: "Програм хангамжийн инженерчлэлийн тусгай сэдвүүд" },
+  { id: "10", name: "Ахисан түвшний алгоритмын шинжилгээ" },
+  { id: "11", name: "Өгөгдлийн уурхай" },
+  { id: "12", name: "Яриа боловрсуулалт" }
+];
 export const Logos = [
   { id: "01", name: "HTML", logo: htmlLogo, level: "Дунд шат" },
   { id: "02", name: "CSS", logo: cssLogo, level: "Дунд шат" },

@@ -19,6 +19,22 @@ export const Description = styled.p`
   text-align: justify;
 `;
 export const Wrapper = styled.div``;
+export const Lessons = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  p {
+    font-size: 1rem;
+    margin: 0.5rem;
+    padding: 0rem 1rem;
+    background-color: #e1e1e3;
+    border-radius: 1rem;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+`;
 export const Image = styled.img`
   width: 100%;
 `;

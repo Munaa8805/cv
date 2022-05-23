@@ -7,10 +7,12 @@ import {
   Wrapper,
   Image,
   LogoWrapper,
-  LogoImage
+  LogoImage,
+  Lessons
 } from "./courseElements";
 import grade from "../../images/grade.webp";
-import { Logos } from "../../jobs";
+import { Logos, lessons } from "../../jobs";
+
 const Course = () => {
   return (
     <Container id="education">
@@ -30,7 +32,11 @@ const Course = () => {
           </Description>
         </Wrapper>
         <Wrapper>
-          <Image src={grade} alt="grade" />
+          <Lessons>
+            {lessons.map((lesson) => (
+              <p key={lesson.id}>{lesson.name}</p>
+            ))}
+          </Lessons>
         </Wrapper>
       </ContainerWrapper>
       <ContainerWrapper number={1}>
