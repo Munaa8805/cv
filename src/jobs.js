@@ -15,6 +15,7 @@ import reduxLogo from "./images/reduxLogo.webp";
 import gitLogo from "./images/gitLogo.webp";
 import jsLogo from "./images/JSlogo.png";
 import nextjsLogo from "./images/nextjs.svg";
+import mealserviceapp from "./images/food_app.webp";
 
 export const lessons = [
   { id: "01", name: "Алгоритмын үндэс" },
@@ -226,5 +227,15 @@ export const projects = [
     link: "https://restaurant-meals.vercel.app/",
     githubRepo: "https://github.com/Munaa8805/restaurant-meals",
     image: eRestaurant
+  },
+  {
+    id: "03",
+    name: "Хоол захиалгын апликэшин.",
+    technology:
+      "Вэбийн Фронт-эндийг ReactJS өгөгдлийн баазыг Firebase ашигласан.",
+    finished: "Хөгжүүлэлтийн ажил үргэлжилж байна.",
+    link: "https://meal-service-delta.vercel.app/",
+    githubRepo: "https://github.com/Munaa8805/cinema-service",
+    image: mealserviceapp
   }
 ];
